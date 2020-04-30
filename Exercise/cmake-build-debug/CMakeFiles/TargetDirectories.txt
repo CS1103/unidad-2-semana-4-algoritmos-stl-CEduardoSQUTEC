@@ -1,0 +1,3 @@
+/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/cmake-build-debug/CMakeFiles/Exercise.dir

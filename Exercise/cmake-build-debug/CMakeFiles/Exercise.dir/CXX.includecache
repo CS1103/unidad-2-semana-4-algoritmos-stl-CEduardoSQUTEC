@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+sstream
+-
+
