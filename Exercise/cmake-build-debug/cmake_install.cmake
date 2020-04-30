@@ -1,4 +1,4 @@
-# Install script for directory: /home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise
+# Install script for directory: /home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/unidad-2-semana-4-algoritmos-stl-CEduardoSQUTEC/Exercise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/unidad-2-semana-4-algoritmos-stl-CEduardoSQUTEC/Exercise/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

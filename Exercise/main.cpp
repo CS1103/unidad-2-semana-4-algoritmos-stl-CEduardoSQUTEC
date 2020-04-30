@@ -48,20 +48,22 @@ void p299() {
     }
 }
 
-bool greater_than(const double &a, const double &b) {
-    return (a < b);
+static bool sort_using_greater_than(double u, double v) {
+    return u < v;
 }
 
 int main() {
     size_t n{};
-    string str;
+    string str{};
     getline(cin, str);
     stringstream ss(str);
     ss >> n;
 
     for (size_t i = 0; i < n; ++i) {
+        str = "";
+        getline(cin, str);
         vector<size_t> vn;
-        string str{};
+        str = "";
         getline(cin, str);
         stringstream iss(str);
         size_t evn;
@@ -75,12 +77,14 @@ int main() {
         stringstream jss(str);
         double evd;
         while (jss >> evd) {
-            vd.push_back(evn);
+            vd.push_back(evd);
         }
-        sort(begin(vd), end(vd));
-        for (const auto &e: vd) {
-            cout << e << '\n';
-        }
+        std::sort(vd.begin(), vd.end(), sort_using_greater_than);
+//        for (const auto &e: vd)
+//            cout << e << '\n';
+        for (const auto &e: vn)
+            cout << vd[e - 1] << '\n';
+
     }
     return 0;
 }

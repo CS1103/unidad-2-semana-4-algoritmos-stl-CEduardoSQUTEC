@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/main.cpp" "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/Exercise/cmake-build-debug/CMakeFiles/Exercise.dir/main.cpp.o"
+  "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/unidad-2-semana-4-algoritmos-stl-CEduardoSQUTEC/Exercise/main.cpp" "/home/ceduardosq/OneDrive/Studies/University/2020/2020 - 01/ObjectOrientedProgramming2/exercise/week04/unidad-2-semana-4-algoritmos-stl-CEduardoSQUTEC/Exercise/cmake-build-debug/CMakeFiles/Exercise.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
