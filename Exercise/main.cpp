@@ -52,7 +52,7 @@ static bool sort_using_greater_than(double u, double v) {
     return u < v;
 }
 
-int main() {
+void p482() {
     size_t n{};
     string str{};
     getline(cin, str);
@@ -80,11 +80,48 @@ int main() {
             vd.push_back(evd);
         }
         std::sort(vd.begin(), vd.end(), sort_using_greater_than);
-//        for (const auto &e: vd)
-//            cout << e << '\n';
         for (const auto &e: vn)
             cout << vd[e - 1] << '\n';
+    }
+}
 
+size_t nInversionSeq(string A, string B) {
+    size_t a = 0;
+    for (size_t i = 1; A[i] != 0; ++i) {
+        a += ((A[i-1] > A[i])? A[i-1] - A[i]: 0);
+    }
+    size_t b = 0;
+    for (size_t i = 1; B[i] != 0; ++i) {
+        b += ((B[i-1] > B[i])? B[i-1] - B[i] : 0);
+    }
+    return a < b;
+}
+
+int main() {
+    size_t M{}, n{}, m{};
+    string in{};
+    getline(cin, in);
+    stringstream inss1(in);
+    inss1 >> M;
+    for (size_t i = 0; i < M; ++i) {
+        in = "";
+        getline(cin, in);
+
+        in = "";
+        getline(cin, in);
+        stringstream inss2(in);
+        inss2 >> n;
+        inss2 >> m;
+
+        vector<string> vstr;
+        for (size_t j = 0; j < m; ++j) {
+            in = "";
+            cin >> in;
+            vstr.push_back(in);
+        }
+        sort(vstr.begin(), vstr.end(), nInversionSeq);
+        for (const auto &e: vstr)
+            cout << e << '\n';
     }
     return 0;
 }
